@@ -1,0 +1,57 @@
+{
+  "total_puzzles": 1290,
+  "date_range": {
+    "start": "2022-01-01",
+    "end": "2025-07-13"
+  },
+  "puzzle_number_range": {
+    "min": "196",
+    "max": "1485"
+  },
+  "word_stats": {
+    "total_unique_words": 300,
+    "avg_word_length": 5.018604651162791,
+    "avg_unique_letters": 4.712403100775194,
+    "words_with_duplicates": "370",
+    "avg_vowel_count": 1.7565891472868218
+  },
+  "temporal_distribution": {
+    "by_year": {
+      "2024": 366,
+      "2022": 365,
+      "2023": 365,
+      "2025": 194
+    },
+    "by_month": {
+      "1": 124,
+      "3": 124,
+      "5": 124,
+      "4": 120,
+      "6": 120,
+      "2": 113,
+      "7": 106,
+      "8": 93,
+      "10": 93,
+      "12": 93,
+      "9": 90,
+      "11": 90
+    },
+    "by_day_of_week": {
+      "5": 185,
+      "6": 185,
+      "0": 184,
+      "1": 184,
+      "2": 184,
+      "3": 184,
+      "4": 184
+    },
+    "weekend_count": "370"
+  },
+  "linguistic_patterns": {
+    "starts_with_vowel": "128",
+    "ends_with_vowel": "310",
+    "has_common_pairs": "543",
+    "has_rare_letters": "47",
+    "has_double_letters": "142"
+  }
+}
