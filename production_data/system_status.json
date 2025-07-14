@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-07-13T19:56:12.648769",
+  "performance": {
+    "avg_response_time_ms": 0.04778066553020229,
+    "error_rate": 0.0,
+    "cache_hit_rate": 1.0,
+    "memory_usage_mb": 0.0,
+    "cpu_usage_percent": 0.0
+  },
+  "caching": {
+    "cache_size": 5,
+    "cache_hit_rate": 0.3333333333333333
+  },
+  "scaling": {
+    "current_workers": 2,
+    "current_load": 0.0
+  },
+  "feedback": {
+    "feedback_queue_size": 0,
+    "total_feedback_collected": 0
+  },
+  "health": "healthy"
+}

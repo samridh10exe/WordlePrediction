@@ -1,0 +1,70 @@
+{
+  "title": "Wordle Prediction Production Dashboard",
+  "sections": [
+    {
+      "name": "Performance Metrics",
+      "metrics": [
+        {
+          "name": "Average Response Time",
+          "unit": "ms",
+          "target": "<100"
+        },
+        {
+          "name": "Error Rate",
+          "unit": "%",
+          "target": "<1%"
+        },
+        {
+          "name": "Cache Hit Rate",
+          "unit": "%",
+          "target": ">80%"
+        },
+        {
+          "name": "Throughput",
+          "unit": "QPS",
+          "target": ">100"
+        }
+      ]
+    },
+    {
+      "name": "System Health",
+      "metrics": [
+        {
+          "name": "Memory Usage",
+          "unit": "MB",
+          "target": "<1024"
+        },
+        {
+          "name": "CPU Usage",
+          "unit": "%",
+          "target": "<80%"
+        },
+        {
+          "name": "Active Workers",
+          "unit": "count",
+          "target": "2-16"
+        }
+      ]
+    },
+    {
+      "name": "Model Performance",
+      "metrics": [
+        {
+          "name": "Prediction Accuracy",
+          "unit": "%",
+          "target": ">60%"
+        },
+        {
+          "name": "User Satisfaction",
+          "unit": "score",
+          "target": ">4.0"
+        },
+        {
+          "name": "Model Freshness",
+          "unit": "hours",
+          "target": "<24"
+        }
+      ]
+    }
+  ]
+}

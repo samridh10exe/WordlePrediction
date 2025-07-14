@@ -1,0 +1,29 @@
+{
+  "config": {
+    "use_random_forest": true,
+    "use_gradient_boosting": true,
+    "use_xgboost": true,
+    "use_lightgbm": true,
+    "use_neural_network": true,
+    "use_transformer": true,
+    "use_reinforcement_learning": true,
+    "rf_n_estimators": 200,
+    "rf_max_depth": 15,
+    "gb_n_estimators": 150,
+    "gb_learning_rate": 0.1,
+    "nn_hidden_layers": [
+      256,
+      128,
+      64
+    ],
+    "test_size": 0.2,
+    "cv_folds": 5,
+    "random_state": 42,
+    "target_top1_accuracy": 0.6,
+    "target_top5_accuracy": 0.85,
+    "target_avg_guesses": 3.8
+  },
+  "ensemble_weights": [],
+  "training_scores": {},
+  "trained_predictors": []
+}

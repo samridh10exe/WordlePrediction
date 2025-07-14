@@ -1,0 +1,38 @@
+Wordle Prediction Model Benchmark Report
+==================================================
+Model: MockPredictor
+Timestamp: 2025-07-13T19:53:49.002071
+
+CORE PERFORMANCE METRICS
+------------------------------
+Average Guesses: 6.000
+Success Rate: 0.0%
+Solve Rate: 100.0%
+Top-1 Accuracy: 65.0%
+Top-5 Accuracy: 87.0%
+
+PERFORMANCE CHARACTERISTICS
+------------------------------
+Avg Response Time: 0.01 ms
+Memory Usage: 0.0 MB
+Throughput: 107095.0 QPS
+
+MIT BENCHMARK COMPARISON
+------------------------------
+Guesses Ratio: 1.754
+Meets MIT Standard: NO
+
+TARGET ACHIEVEMENT
+------------------------------
+Meets Avg Guesses Target (≤3.8): NO
+Meets Success Rate Target (≥95.0%): NO
+Meets Top-5 Accuracy Target (≥85.0%): YES
+
+ROBUSTNESS ACROSS CATEGORIES
+------------------------------
+Common: 6.00 guesses, 0.0% success
+Double_Letters: 6.00 guesses, 0.0% success
+Uncommon: 6.00 guesses, 0.0% success
+Archaic: 6.00 guesses, 0.0% success
+Technical: 6.00 guesses, 0.0% success
+Foreign: 6.00 guesses, 0.0% success
