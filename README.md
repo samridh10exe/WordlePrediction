@@ -60,11 +60,6 @@ mkdir -p models logs results
 docker-compose up --build
 ```
 
-2. **Access the application**
-- API: http://localhost:8000
-- Frontend: http://localhost:8501
-- API Documentation: http://localhost:8000/docs
-
 ### Running Locally
 
 1. **Start the API server**
