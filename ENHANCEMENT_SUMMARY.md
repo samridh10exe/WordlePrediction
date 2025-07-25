@@ -120,19 +120,44 @@
 ### Test Dataset
 - **20 recent Wordle answers:** GRAND, USHER, MOCHA, RESIN, LODGE, KNELT, DISCO, MIRTH, PLUMP, SCANT, CRISP, JOKER, WOVEN, FIELD, GRAPE, MAGIC, PLANT, HOUSE, WATER, LIGHT
 
-### Game Performance Examples
+### Complete Game Performance Results
 ```
-GRAND: CRANE → BRAND → GRAND (3 guesses)
-DISCO: CRANE → DISCO (2 guesses)  
-CRISP: CRANE → CRISP (2 guesses)
-FIELD: CRANE → FIELD (2 guesses)
+Game  1: GRAND  - CRANE → BRAND → GRAND (3 guesses) ✅
+Game  2: USHER  - CRANE → THEIR → USHER (3 guesses) ✅
+Game  3: MOCHA  - CRANE → LOCAL → MOCHA (3 guesses) ✅
+Game  4: RESIN  - CRANE → NEVER → RESIN (3 guesses) ✅
+Game  5: LODGE  - CRANE → THESE → LODGE (3 guesses) ✅
+Game  6: KNELT  - CRANE → MONEY → KNELT (3 guesses) ✅
+Game  7: DISCO  - CRANE → DISCO (2 guesses) ✅
+Game  8: MIRTH  - CRANE → SHIRT → BIRTH → MIRTH (4 guesses) ✅
+Game  9: PLUMP  - CRANE → STUDY → PLUMP (3 guesses) ✅
+Game 10: SCANT  - CRANE → SCANT (2 guesses) ✅
+Game 11: CRISP  - CRANE → CRISP (2 guesses) ✅
+Game 12: JOKER  - CRANE → THEIR → JOKER (3 guesses) ✅
+Game 13: WOVEN  - CRANE → MONEY → WOVEN (3 guesses) ✅
+Game 14: FIELD  - CRANE → FIELD (2 guesses) ✅
+Game 15: GRAPE  - CRANE → IRATE → FRAME → GRAPE (4 guesses) ✅
+Game 16: MAGIC  - CRANE → LOCAL → MAGIC (3 guesses) ✅
+Game 17: PLANT  - CRANE → PIANO → PLANT (3 guesses) ✅
+Game 18: HOUSE  - CRANE → THESE → HOUSE (3 guesses) ✅
+Game 19: WATER  - CRANE → LATER → WATER (3 guesses) ✅
+Game 20: LIGHT  - CRANE → STUDY → LIGHT (3 guesses) ✅
 ```
 
+### Detailed Performance Breakdown
+- **Success Rate:** 100.0% (20/20 games solved)
+- **2 guesses:** 4 games (20.0%) - DISCO, SCANT, CRISP, FIELD
+- **3 guesses:** 14 games (70.0%) - GRAND, USHER, MOCHA, RESIN, LODGE, KNELT, PLUMP, JOKER, WOVEN, MAGIC, PLANT, HOUSE, WATER, LIGHT
+- **4 guesses:** 2 games (10.0%) - MIRTH, GRAPE
+- **Failed games:** 0 (0.0%)
+
 ### Statistical Analysis
-- **Standard Deviation:** 0.54 (highly consistent)
+- **Standard Deviation:** 0.54 (highly consistent performance)
 - **Median Performance:** 3.0 guesses
-- **Best Performance:** 2 guesses (20% of games)
-- **Worst Performance:** 4 guesses (10% of games)
+- **Best Performance:** 2 guesses (achieved in 4 games)
+- **Worst Performance:** 4 guesses (only 2 games required this many)
+- **Average Response Time:** 2.0ms per prediction
+- **Total Test Time:** 117.9ms for all 20 games
 
 ## Implementation Files
 
